@@ -1,0 +1,119 @@
+.newsSection {
+    height: 90vh;
+    width: 100%;
+}
+
+.newsHeading {
+    height: 33px;
+    font-family: 'DM Serif Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 110%;
+    color: #1F1F1F;
+    text-align: center !important;
+    padding-top: 3rem;
+}
+
+.newsCarousel {
+    padding-top: 6rem;
+    margin: 0 3rem 0rem 3rem;
+}
+
+.newsButtonBox {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.works {
+    width: 150px;
+    height: 40px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 25px;
+    color: #005DF2;
+    white-space: nowrap;
+    margin-left: 2rem;
+}
+
+.BoxCard {
+    height: 350px;
+    width: 100%;
+    display: flex;
+    margin: 0 20px;
+}
+
+.card {
+    margin-bottom: 1rem;
+}
+
+.carouselcardcontents {
+    height: 69.91px;
+    /* font-family: 'Manrope'; */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.cardsubContent {
+    height: 19px;
+    left: 444.26px;
+    top: 3010px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #BEBEBE;
+    padding-top: 1rem;
+}
+
+.cardbutton {
+    width: 100%;
+    background: #005DF2;
+    border-radius: 5px;
+    /* font-family: 'Manrope'; */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: 1rem;
+    color: #FFFFFF;
+}
+
+.cardbutton:hover {
+    background: #005DF2;
+    opacity: 0.9;
+}
+
+.resCard {
+    display: none;
+}
+
+@media (max-width: 600px) {
+    .newsSection {
+        height: 190vh;
+    }
+
+    .newsCarousel {
+        display: none;
+    }
+
+    .resCard {
+        display: block;
+    }
+
+    .BoxCard {
+        height: 350px;
+        width: 60%;
+        display: flex;
+        margin: 0 20px;
+        transform: translate(30%, 0);
+        margin-top: 4rem;
+    }
+}

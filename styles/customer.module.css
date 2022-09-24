@@ -1,0 +1,124 @@
+.customerSection {
+    height: 80vh;
+    width: 100%;
+    position: relative;
+    background-image: url("/what customers say backdrop.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.customerHeadingContent {
+    position: absolute;
+    top: 3%;
+    width: 100%;
+}
+
+.customerHeading {
+    height: 40px;
+    font-family: 'DM Serif Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 110%;
+    color: #1F1F1F;
+    text-align: center !important;
+}
+
+.customerSubHeading {
+    height: 50px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+    text-align: center !important;
+    padding-top: 1rem;
+}
+
+.customerContent {
+    display: flex;
+    justify-content: center !important;
+}
+
+.contentBox {
+    width: 520px;
+    height: 230.19px;
+    /* left: 117px; */
+    /* top: 30%; */
+    background: #FFFFFF;
+    box-shadow: 0px 0px 144.516px -46.4516px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    transform: translate(3%, 90%);
+    margin-bottom: 3rem;
+}
+
+.profile {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    text-align: center;
+    transform: translate(50%, -50%);
+    margin-left: 35%;
+}
+
+.profileName {
+    text-align: center !important;
+    height: 25.1px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18.5807px;
+    line-height: 25px;
+    color: #373737;
+    transform: translate(0%, -80%);
+}
+
+.profileName2 {
+    height: 17px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.3871px;
+    line-height: 17px;
+    color: #373737;
+    text-align: center !important;
+    transform: translate(0%, -80%);
+}
+
+.profileName3 {
+    height: 17px;
+    /* font-family: 'Manrope'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #515151;
+    /* transform: translate(0%, -80%); */
+}
+
+.newsButtonBox {
+    display: flex;
+    justify-content: center;
+    margin-top: 15rem;
+}
+
+.works {
+    width: 150px;
+    height: 40px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 25px;
+    color: #005DF2;
+    white-space: nowrap;
+    margin-left: 2rem;
+}
+
+@media (max-width: 600px) {
+    .customerSection {
+        height: 90vh;
+    }
+}

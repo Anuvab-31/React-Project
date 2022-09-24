@@ -1,0 +1,66 @@
+.drawer {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    display: none;
+    left: 0;
+    background: #eaf2ff;
+}
+
+.headerLinks {
+    display: flex;
+    cursor: pointer;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    color: #454A6D;
+    padding: 2rem 20px 0px 20px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.headerprofile {
+    width: 70px;
+    height: 70px;
+    background: #005DF2;
+    border-radius: 50%;
+}
+
+.divider {
+    background-color: #C7C7C7;
+    margin-top: 2rem;
+}
+
+.cartIcon {
+    font-size: 3rem;
+}
+
+
+.profileBox {
+    /* position: absolute; */
+    display: flex;
+
+}
+
+.profileName {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #2F2F2F;
+    padding: 1.5rem 0 0 1rem;
+}
+
+
+@media (max-width: 600px) {
+    .drawer {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        left: 0;
+        transition: all 0.7s ease;
+        z-index: 999;
+    }
+}

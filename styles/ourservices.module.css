@@ -1,0 +1,117 @@
+.serviceSection {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* background-color: green; */
+    height: 50vh;
+    background-image: url("/Frame 31 (1).svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.services {
+    height: 480px;
+    top: 680px;
+    box-shadow: 0px 10px 56px rgba(0, 0, 0, 0.08);
+    border-radius: 5px;
+    position: absolute;
+    width: 90%;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 56px rgba(0, 0, 0, 0.08);
+    border-radius: 5px;
+}
+
+.heading {
+    text-align: center;
+    width: 100%;
+}
+
+.seviceHeading {
+    height: 33px;
+    margin-top: 18px;
+    text-align: center;
+    font-family: 'DM Serif Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 110%;
+    color: #1F1F1F;
+}
+
+.serviceSubHeading {
+    height: 22px;
+    margin-top: 15px;
+    text-align: center;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.boxes {
+    display: flex;
+}
+
+.allBox {
+    margin-top: 3%;
+    margin-left: 2%;
+    margin-bottom: 2rem;
+}
+
+.serviceBox {
+    width: 150px;
+    height: 150px;
+    background: #F0F6FF;
+    border-radius: 10px;
+    padding: 7% 3% 3% 7%;
+}
+
+.boxHeading {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 35px;
+    color: #000000;
+    padding-left: 20px;
+}
+
+.boxContain {
+    width: 340px;
+    height: 66px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-size: 15px;
+    color: #000000;
+    padding-left: 20px;
+}
+
+.serviceButton {
+    width: 150px;
+    height: 35px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 25px;
+    color: #FFFFFF;
+    white-space: nowrap;
+    left: 4%;
+    background: #005DF2;
+    border-radius: 9px;
+    margin-top: 10px;
+}
+
+.serviceButton:hover {
+    background: #005DF2;
+    opacity: 0.9;
+}
+
+@media (max-width: 600px) {
+    .services {
+        top: 940px;
+        height: auto;
+    }
+}

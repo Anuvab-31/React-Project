@@ -1,0 +1,147 @@
+[
+    {
+        "title": "Training",
+        "childrens": [
+            {
+                "title": "Governance",
+                "childrens": [
+                    {
+                        "title": "COBIT"
+                    },
+                    {
+                        "title": "ISO/IEC 38500"
+                    },
+                    {
+                        "title": "CGEIT"
+                    }
+                ]
+            },
+            {
+                "title": "Performance Management",
+                "childrens": [
+                    {
+                        "title": "COBIT"
+                    },
+                    {
+                        "title": "ISO/IEC 38500"
+                    },
+                    {
+                        "title": "CGEIT"
+                    }
+                ]
+            },
+            {
+                "title": "Cybersecurity & Privacy",
+                "childrens": [
+                    {
+                        "title": "COBIT"
+                    },
+                    {
+                        "title": "ISO/IEC 38500"
+                    },
+                    {
+                        "title": "CGEIT"
+                    }
+                ]
+            },
+            {
+                "title": "Continuity & Resilience ",
+                "childrens": [
+                    {
+                        "title": "COBIT"
+                    },
+                    {
+                        "title": "ISO/IEC 38500"
+                    },
+                    {
+                        "title": "CGEIT"
+                    }
+                ]
+            },
+            {
+                "title": "Risk Management",
+                "childrens": [
+                    {
+                        "title": "COBIT"
+                    },
+                    {
+                        "title": "ISO/IEC 38500"
+                    },
+                    {
+                        "title": "CGEIT"
+                    }
+                ]
+            },
+            {
+                "title": "Compliance Management",
+                "childrens": [
+                    {
+                        "title": "COBIT"
+                    },
+                    {
+                        "title": "ISO/IEC 38500"
+                    },
+                    {
+                        "title": "CGEIT"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Consulting",
+        "childrens": [
+            {
+                "title": "COBIT"
+            },
+            {
+                "title": "ISO/IEC 38500"
+            },
+            {
+                "title": "CGEIT"
+            }
+        ]
+    },
+    {
+        "title": "Solutions",
+        "childrens": [
+            {
+                "title": "COBIT"
+            },
+            {
+                "title": "ISO/IEC 38500"
+            },
+            {
+                "title": "CGEIT"
+            }
+        ]
+    },
+    {
+        "title": "Webstore",
+        "childrens": [
+            {
+                "title": "COBIT"
+            },
+            {
+                "title": "ISO/IEC 38500"
+            },
+            {
+                "title": "CGEIT"
+            }
+        ]
+    },
+    {
+        "title": "About us",
+        "childrens": [
+            {
+                "title": "COBIT"
+            },
+            {
+                "title": "ISO/IEC 38500"
+            },
+            {
+                "title": "CGEIT"
+            }
+        ]
+    }
+]

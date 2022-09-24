@@ -1,0 +1,107 @@
+.homepage {
+    height: 100vh;
+    width: 100%;
+    background-image: url("/BAckground.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.homeContent {
+    position: absolute !important;
+    top: 25%;
+    left: 8%;
+    font-family: 'DM Serif Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 110%;
+    color: #005DF2;
+}
+
+.homeSubContent {
+    position: absolute;
+    width: 476px;
+    height: 50px;
+    left: 119px;
+    top: 400px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #005DF2;
+}
+
+.spanContent {
+    color: #EA9212;
+}
+
+.buttonGroup {
+    margin-left: 8%;
+    position: absolute;
+    top: 65%;
+    gap: 2rem !important;
+}
+
+.courses {
+    background-color: #EA9212;
+    width: 150px;
+    height: 40px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 25px;
+    color: #FFFFFF;
+    white-space: nowrap;
+}
+
+.courses:hover {
+    background-color: #EA9212;
+    opacity: 0.9;
+}
+
+.works {
+    width: 150px;
+    height: 40px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 25px;
+    color: #005DF2;
+    white-space: nowrap;
+    margin-left: 2rem;
+}
+
+@media (max-width: 600px) {
+    .homepage {
+        background-image: url("/Mobile top Image copy.png");
+    }
+
+    .homeContent {
+        display: none !important;
+    }
+
+    .homeSubContent {
+        display: none;
+    }
+
+    .buttonGroup {
+        top: 83%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-left: 15%;
+    }
+
+    .courses {
+        width: 180px;
+        height: 60px;
+    }
+
+    .works {
+        width: 180px;
+        height: 60px;
+    }
+}

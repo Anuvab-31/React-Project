@@ -1,0 +1,59 @@
+.about {
+    background-image: url("../Assets/images/Frame\ 31.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    width: 100%;
+}
+
+
+.aboutHeading {
+    /* margin-top: 2rem; */
+    /* height: 33px; */
+    font-family: 'DM Serif Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 110%;
+    color: #1F1F1F;
+    text-align: center !important;
+}
+
+.aboutSubHeading {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+    margin-top: 1rem;
+}
+
+.aboutContent {
+    height: 100px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+    margin-top: 2rem;
+}
+
+@media (max-width: 600px) {
+    .about {
+        height: 80vh;
+    }
+
+    .aboutHeading {
+        margin-top: 14rem;
+    }
+
+    .aboutContent {
+        margin-top: 4rem;
+        height: 160px;
+    }
+}

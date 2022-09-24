@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Manrope:wght@200;300;400;500;600&family=Playball&family=Poppins:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Manrope:wght@200;300;400;500;600&family=Playball&family=Poppins:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap');
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+.sidebar {
+  color: black;
+  display: block;
+}
+
+.sidebarItem {
+  /* padding: .75em 1em; */
+  /* margin: 20px; */
+  display: block;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 22px;
+  color: #454A6D;
+}
+
+.sidebarItem:hover {
+  background-color: rgba(255, 255, 255, .1);
+}
+
+.sidebarItemTitle {
+  display: flex;
+  /* font-size: 1.5em; */
+  justify-content: space-between;
+  padding: 15px;
+  /* height: 22px; */
+}
+
+
+
+/* .sidebarItemTitle span i {
+  display: inline-block;
+  width: 1.5em;
+} */
+
+.sidebarItemTitle .toggleBtn {
+  cursor: pointer;
+  transform: scale(1.3);
+}
+
+.sidebarItem.open>.sidebarItemTitle .toggleBtn {
+  transform: rotate(90deg);
+}
+
+.sidebarContent {
+  height: 0;
+  overflow: hidden;
+  font-weight: bold;
+  background-color: #fff;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 22px;
+  color: #454A6D;
+}
+
+.sidebarItem.open>.sidebarContent {
+  height: auto;
+  display: block;
+}
+
+.sidebarItem.plain {
+  text-decoration: none;
+  background-color: #fff;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #868686;
+  padding-top: 20px;
+  padding-left: 1.3rem;
+}
+
+.sidebarItem.plain:hover {
+  text-decoration: underline;
+}
+
+.sidebarItem.plain i {
+  display: inline-block;
+  width: 1.7em;
+}
